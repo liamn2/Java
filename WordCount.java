@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -120,7 +121,7 @@ public class WordCount {
 
     // pre: titles != null, elements of titles refer to files in the
     // same path as this program, numExp >= 0
-    // read words from files and print average time to cound words.
+    // read words from files and print average time to count words.
     private static void timingExpWithArrayList(String[] titles, int numExp) {
         try {
             double[] times = new double[titles.length];

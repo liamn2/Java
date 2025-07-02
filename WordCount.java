@@ -1,22 +1,19 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-
+//java.util library
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
-
+//javax.swing library
 import javax.swing.JFileChooser;
 import javax.swing.UIManager;
 
-
 public class WordCount {
-
     public static void main(String[] args) {
         countWordsViaGUI();
     }
-
 
     // allow user to pick file to exam via GUI.
     // allow multiple picks
@@ -48,8 +45,6 @@ public class WordCount {
 
     // determine distinct words in a file using an array list
     private static ArrayList<String> countWordsWithArrayList(Scanner fileScanner) {
-
-
         System.out.println("Total number of words: " + numWords);
         System.out.println("number of distincy words: " + result.size());
         return result;
@@ -58,13 +53,10 @@ public class WordCount {
 
     // determine distinct words in a file and frequency of each word with a Map
     private static Map<String, Integer> countWordsWithMap(Scanner fileScanner) {
-
-
         System.out.println("Total number of words: " + numWords);
         System.out.println("number of distincy words: " + result.size());
         return result;
     }
-
 
     private static void showWords(ArrayList<String> words, int numWordsToShow) {
         for(int i = 0; i < words.size() && i < numWordsToShow; i++)
@@ -73,16 +65,13 @@ public class WordCount {
 
 
     private static void showWords(Map<String, Integer> words, int numWordsToShow) {
-
-
-
     }
 
 
     // perform a series of experiments on files. Determine average time to
     // count words in files of various sizes
     private static void performExp() {
-        String[] smallerWorks = {"smallWords.txt", "2BR02B.txt", "Alice.txt", "SherlockHolmes.txt"};;
+        String[] smallerWorks = {"smallWords.txt", "2BR02B.txt", "Alice.txt", "SherlockHolmes.txt"};
         String[] bigFile = {"ciaFactBook2008.txt"};
         timingExpWithArrayList(smallerWorks, 50);
         timingExpWithArrayList(bigFile, 3);

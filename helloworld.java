@@ -4,6 +4,18 @@ class HelloWorld{
     }  
 }  
 
+class Sum{
+    public static void main(String[] args){
+        int num1 = 3;
+        int num2 = 8;
+        if (num1 + num2 == 11) {
+            System.out.println("Correct!");
+        }
+        else {
+            System.out.println("Incorrect!");
+        }
+    }
+}
 
 //Keywords:
 //abstract	continue	for	new	switch

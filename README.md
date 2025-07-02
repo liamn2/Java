@@ -4,4 +4,5 @@
 <b>25/01/2024 (Thursday)</b>: Created classes.jav to look at different class types in Java.  
 <b>30/01/2024 (Tuesday)</b>: Reviewed HelloWorld script.  
 <b>25/02/2024 (Sunday)</b>: Reviewed code.  
-<b>08/06/2025 (Sunday)</b>: Practised classes. 
+<b>08/06/2025 (Sunday)</b>: Practised classes.  
+<b>02/07/2025 (Wednesday)</b>: Updated WordCount.java. 

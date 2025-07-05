@@ -23,3 +23,11 @@ public class Main {
   int x = 25;
   float numero = 4.45f;
 }
+
+public class Main {
+    public static void main(String[] args) {
+        int var = 17; // Declare and initialize 'var'
+        int result = var + 3; // Calculate 'var + 3' and store in 'result'
+        System.out.println("Your answer is " + result); // Print the result
+    }
+}

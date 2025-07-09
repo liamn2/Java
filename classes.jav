@@ -31,3 +31,12 @@ public class Main {
         System.out.println("Your answer is " + result); // Print the result
     }
 }
+
+//Simple Java if-statement.
+class Main {
+    public static void main(String[] args) {
+        if (2 + 2 == 4) {
+            System.out.println("Truth");
+        }
+    }
+}

@@ -6,4 +6,5 @@
 <b>25/02/2024 (Sunday)</b>: Reviewed code.  
 <b>08/06/2025 (Sunday)</b>: Practised classes.  
 <b>02/07/2025 (Wednesday)</b>: Updated WordCount.java.  
-<b>05/07/2025 (Saturday)</b>: Updated classes.java with a program to calculate the sum of a statement. 
+<b>05/07/2025 (Saturday)</b>: Updated classes.java with a program to calculate the sum of a statement.  
+<b>09/07/2025 (Wednesday)</b>: Added an if-statement to classes.java.

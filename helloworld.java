@@ -17,6 +17,21 @@ class Sum{
     }
 }
 
+class makeSomethingInteresting{
+    private void main() {
+        boolean TruthValue = false;
+        double Pi = 3.141592653589;
+        char FirstLetter = 'A';
+        short MonetaryWealth = -32768;
+
+        if TruthValue is false {
+            System.out.println('Here we go again.');
+        } else {
+            System.out.println('Here wo dont go again.');
+        }
+    }
+}
+
 //Keywords:
 //abstract	continue	for	new	switch
 //assert***	default	goto*	package	synchronized
